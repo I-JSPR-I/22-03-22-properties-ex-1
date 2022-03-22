@@ -6,9 +6,9 @@ namespace _22_03_22_properties_ex_1
 {
     class Student
     {
-        public string fname;
-        public string lname;
-        public string klas;
+        private string fname;
+        private string lname;
+        private string klas;
 
         public string Fname
         {
@@ -27,6 +27,12 @@ namespace _22_03_22_properties_ex_1
         {
             get { return klas; }
             set { klas = value; }
+        }
+        public Student()
+        {
+            Fname = "Voornaam";
+            Lname = "Achternaam";
+            Klas = "IB";
         }
     }
 }
