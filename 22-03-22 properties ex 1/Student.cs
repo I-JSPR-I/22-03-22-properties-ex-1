@@ -30,9 +30,9 @@ namespace _22_03_22_properties_ex_1
         }
         public Student()
         {
-            Fname = "Voornaam";
-            Lname = "Achternaam";
-            Klas = "IB";
+            fname = "Voornaam";
+            lname = "Achternaam";
+            klas = "IB";
         }
     }
 }
