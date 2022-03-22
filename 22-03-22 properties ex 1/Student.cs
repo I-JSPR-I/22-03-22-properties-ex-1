@@ -10,11 +10,23 @@ namespace _22_03_22_properties_ex_1
         public string lname;
         public string klas;
 
-public string Fname
+        public string Fname
         {
-            get { return; }
+            get { return fname; }
             set { fname = value; }
         }
-        
+
+
+        public string Lname
+        {
+            get { return lname; }
+            set { lname = value; }
+        }
+
+        public string Klas
+        {
+            get { return klas; }
+            set { klas = value; }
+        }
     }
 }
